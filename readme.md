@@ -9,22 +9,16 @@
     <a href="https://www.youtube.com/channel/UCB0_UTu-zbIsoRBHgpsrlsA"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1024px-YouTube_full-color_icon_%282017%29.svg.png" height="30"></a>
 </div>
 
-# Traffic Sign Image Classification
+# Implementation CV2 Haarcascade Object Detection Models 
  
 ## __Table Of Content__
-- (A) [__Brief__](#brief)
+- [__Brief__](#brief)
   - [__Project__](#project)
-  - [__Data__](#data)
-  - [__Demo__](#demo) -> [Live Demo]()
-  - [__Study__](#problemgoal-and-solving-approach) -> [Colab]()
-  - [__Results__](#results)
-- (B) [__Detailed__](#Details)
-  - [__Abstract__](#abstract)
-  - [__Explanation of the study__](#explanation-of-the-study)
-    - [__(A) Dependencies__](#a-dependencies)
-    - [__(B) Dataset__](#b-dataset)
-    - [__(C) Modelling__](#e-modelling)
-    - [__(D) Deployment as web demo app__](#g-deployment-as-web-demo-app)
+  - [__Demo__](#demo) -> [Live Demo](https://ertugruldemir-cv2-haarcascade-objectdetection.hf.space)
+  - [__Study__](#study) -> [Colab](https://colab.research.google.com/drive/1HG0-eigOKrC1ViUaE_vvlMplEBMO9OQV)
+    - [__Dependencies__](#a-dependencies)
+    - [__Models__](#model-list)
+    - [__File Structure__](#file-structures)
   - [__Licance__](#license)
   - [__Connection Links__](#connection-links)
 
@@ -43,16 +37,16 @@
   <table>
     <tr>
     <td>
-        <a target="_blank" href="" height="30"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" height="30">[Demo app] HF Space</a>
+        <a target="_blank" href="https://ertugruldemir-cv2-haarcascade-objectdetection.hf.space" height="30"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" height="30">[Demo app] HF Space</a>
       </td>
       <td>
-        <a target="_blank" href=""><img src="https://www.tensorflow.org/images/colab_logo_32px.png">[Demo app] Run in Colab</a>
+        <a target="_blank" href="https://colab.research.google.com/drive/1Pw7c2DEwIFS1u34eNLpjgSqpOfTa0_lD#scrollTo=u9VBBQQWKweX"><img src="https://www.tensorflow.org/images/colab_logo_32px.png">[Demo app] Run in Colab</a>
       </td>
       <td>
-        <a target="_blank" href=""><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png">[Traning pipeline] source on GitHub</a>
+        <a target="_blank" href="https://github.com/ertugruldmr/CV2_Haarcascade_ObjectDetection/blob/main/study.ipynb"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png">[Traning pipeline] source on GitHub</a>
       </td>
     <td>
-        <a target="_blank" href=""><img src="https://www.tensorflow.org/images/colab_logo_32px.png">[Traning pipeline] Run in Colab</a>
+        <a target="_blank" href="https://colab.research.google.com/drive/1HG0-eigOKrC1ViUaE_vvlMplEBMO9OQV"><img src="https://www.tensorflow.org/images/colab_logo_32px.png">[Traning pipeline] Run in Colab</a>
       </td>
     </tr>
   </table>
@@ -62,11 +56,11 @@
 - Description
     - __Detecting objects__ which related corresponding models.
     - __Usage__: upload the image and select the model from option dropdawn button to detect the objects.
-- Embedded [Demo]() window from HuggingFace Space
+- Embedded [Demo](https://ertugruldemir-cv2-haarcascade-objectdetection.hf.space) window from HuggingFace Space
     
 
 <iframe
-	src=""
+	src="https://ertugruldemir-cv2-haarcascade-objectdetection.hf.space"
 	frameborder="0"
 	width="850"
 	height="450"
@@ -102,20 +96,12 @@
 ├── demo_app
 │   ├── app.py
 │   ├── examples
-│   ├── requirements.txt
-│   ├── tuned_ResNetV2
-│   │   ├── assets
-│   │   ├── fingerprint.pb
-│   │   ├── keras_metadata.pb
-│   │   ├── saved_model.pb
-│   │   └── variables
-│   │       ├── variables.data-00000-of-00001
-│   │       └── variables.index
-├── docs
-│   └── images
+│   │   ├── messi.jpeg
+│   │   └── ronaldo.jpeg
+│   └── requirements.txt
 ├── env
-│   └── env_installation.md
-├── list.md
+│   ├── env_installation.md
+│   └── requirements.txt
 ├── readme.md
 └── study.ipynb
 
@@ -123,8 +109,6 @@
 - Description of the files
   - demo_app/
     - Includes the demo web app files, it has the all the requirements in the folder so it can serve on anywhere.
-  - demo_app/tuned_ResNetV2:
-    - ResNetV2 state of art deep learning model which implemented through Transfer learning and fine tuning processes.
   - demo_app/examples
     - Example cases to test the model.
   - demo_app/requirements.txt
@@ -138,7 +122,7 @@
   - readme.md
     - It includes all the explanations about the project
   - study.ipynb
-    - It is all the studies about solving the problem which reason of the dataset existance.    
+    - It is all the studies about solving the problem which reason of the dataset existance.     
 
 
 
