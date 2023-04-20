@@ -12,7 +12,6 @@
 # Implementation CV2 Haarcascade Object Detection Models 
  
 ## __Table Of Content__
-- [__Brief__](#brief)
   - [__Project__](#project)
   - [__Demo__](#demo) -> [Live Demo](https://ertugruldemir-cv2-haarcascade-objectdetection.hf.space)
   - [__Study__](#study) -> [Colab](https://colab.research.google.com/drive/1HG0-eigOKrC1ViUaE_vvlMplEBMO9OQV)
